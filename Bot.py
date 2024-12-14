@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 import openai
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key = "sk-svcacct-nWX8J2h02U4EEFaIwuXHdPaeVUjRQkII36puwH8T1dbP-c9mxUc_L6YsdacvT3BlbkFJKgPHZqGiaJ2fekb5-r80hHThaF0feRyPGDxiQot2UtJnAHoIF07DwIuOgWkA"
 
 # Function to handle messages
 def handle_message(update: Update, context: CallbackContext) -> None:
